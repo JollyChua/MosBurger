@@ -1,0 +1,367 @@
+
+
+
+body{
+  
+}
+
+
+/*logo on navigation- done*/
+img.Mos {
+	width: auto;
+
+};
+
+
+
+
+
+.navbar {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  background-color: rgb(245, 130, 130);
+}
+.navbar > .container,
+.navbar > .container-fluid,
+.navbar > .container-sm,
+.navbar > .container-md,
+.navbar > .container-lg,
+.navbar > .container-xl,
+.navbar > .container-xxl {
+  display: flex;
+  flex-wrap: inherit;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar-brand {
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  margin-right: 1rem;
+  font-size: 1.25rem;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.navbar-nav {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+.navbar-nav .nav-link {
+  padding-right: 0;
+  padding-left: 0;
+}
+.navbar-nav .dropdown-menu {
+  position: static;
+}
+
+.navbar-text {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.navbar-collapse {
+  flex-basis: 100%;
+  flex-grow: 1;
+  align-items: center;
+}
+
+.navbar-toggler {
+  padding: 0.25rem 0.75rem;
+  font-size: 1.25rem;
+  line-height: 1;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  transition: box-shadow 0.15s ease-in-out;
+}
+
+.navbar navbar-expand-lg navbar-dark fixed-top
+
+@media (prefers-reduced-motion: reduce) {
+  .navbar-toggler {
+    transition: none;
+  }
+}
+.navbar-toggler:hover {
+  text-decoration: none;
+}
+.navbar-toggler:focus {
+  text-decoration: none;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem;
+}
+
+.navbar-toggler-icon {
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+
+.navbar-nav-scroll {
+  max-height: var(--bs-scroll-height, 75vh);
+  overflow-y: auto;
+}
+
+.d-block {
+  display: block !important;
+}
+
+#sideNav {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background-color:rgb(51, 153, 51);
+}
+#sideNav .navbar-nav .nav-item .nav-link {
+  font-weight: 800;
+  letter-spacing: 0.05rem;
+  text-transform: uppercase;
+}
+#sideNav .navbar-toggler:focus {
+  outline-color: #d48a6e;
+}
+
+@media (min-width: 992px) {
+  #sideNav {
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    width: 17rem;
+    height: 100vh;
+  }
+  #sideNav .navbar-brand {
+    display: flex;
+    margin: auto auto 0;
+    padding: 0.5rem;
+  }
+  #sideNav .navbar-brand .img-profile {
+    max-width: 10rem;
+    max-height: 10rem;
+    border: 0.5rem solid rgba(255, 255, 255, 0.2);
+  }
+  #sideNav .navbar-collapse {
+    display: flex;
+    align-items: flex-start;
+    flex-grow: 0;
+    width: 100%;
+    margin-bottom: auto;
+  }
+  #sideNav .navbar-collapse .navbar-nav {
+    flex-direction: column;
+    width: 100%;
+  }
+  #sideNav .navbar-collapse .navbar-nav .nav-item {
+    display: block;
+  }
+  #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
+    display: block;
+  }
+}
+
+/*Double check Main*/
+header.masthead {
+  display:flex;
+  flex-wrap: wrap;/*It will help the flex item go below each other*/
+  padding-top: 3rem;
+  padding-bottom: 6rem;
+  /*padding-bottom: 6rem;*/
+  text-align: center;
+  color: #343a40;
+  background-image: url("https://image.freepik.com/free-vector/burger-seamless-pattern-background-vector-design_22159-34.jpg"); 
+  background-repeat: no-repeat;
+  /*background-attachment: fixed;*/
+  /*background-position: center bottom;*/
+  background-size: cover;
+  width: 100%;
+  max-width: 100%;
+  /*height: 100%;*/
+  min-width: 100%;
+  height: auto;
+
+}
+header.masthead .masthead-subheading {
+  font-size: 1.5rem;
+  font-style: italic;
+  line-height: 1.5rem;
+  margin-bottom: 25px;
+  font-family: "Droid Serif";
+  background-color:green;
+}
+
+
+header.masthead .masthead-heading {
+  font-size:10vw;
+  font-weight: 700;
+  line-height: 1.5rem;
+  margin-bottom: 4rem;
+  font-family: 'Parisienne', cursive;
+  font-family: 'Sacramento', cursive;
+  background-color:green;
+}
+
+
+/*
+header .glow {
+  font-size: 1rem;
+  /*color: #fff;
+  font-size: 15vw;
+  font-weight: 700;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
+  font-family: 'Parisienne', cursive;
+  font-family: 'Sacramento', cursive;
+}
+*/
+
+/**/
+
+header.masthead .container_empty{
+  background-color: #A5BE3280;
+  width:250px;/*done*/
+}
+
+header.masthead .container0{
+  background-color: #A5BE3280;
+  width:880px;/*done*/
+}
+
+header.masthead .container1 {
+   
+  flex-direction:column;
+  background-color: #A5BE3280;
+  margin: 0px 0px 0px 0px;
+  width: 368px;
+  }
+
+header.masthead .container1 span.1 {
+   
+  flex-direction:column;
+  background-color: #A5BE3280;
+  margin: 0px 0px 0px 0px;
+  padding-left: 30px;
+  width: 400px;
+  }
+
+header.masthead .onTheSide {
+  display: flex;
+  display:4;
+  background-color: #A5CE3880;
+  /*width:0px;*/
+}
+
+.container0 > #adver {
+  
+  max-width: 90%;
+  top: 10px;
+  right: 10px;
+  bottom: 10px; 
+  left: 13px;
+  width: 90%;/*this controls the width*/
+  height:70%;
+  min-width: 300px;
+}
+
+/*font: making people happy food*/
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+
+div.circle { /*done*/
+  margin: auto;
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+  background: #4E8953;
+  margin-top: 20px;
+}
+
+header.masthead h1.display {
+  font-family: 'Lobster', cursive;
+  color: #D5E2D6;
+  text-align: center;
+  line-height: 9px;
+  margin-top: 3px;
+  -moz-transform: scale(1) rotate(-5deg) translateX(0px) translateY(0px) skewX(1deg) skewY(1deg);
+-webkit-transform: scle(1) rotate(-5deg) translateX(0px) translateY(0px) skewX(1deg) skewY(1deg);
+-o-transform: scale(1) rotate(-5deg) translateX(0px) translateY(0px) skewX(1deg) skewY(1deg);
+-ms-transform: scale(1) rotate(-5deg) translateX(0px) translateY(0px) skewX(1deg) skewY(1deg);
+transform: scale(1) rotate(-5deg) translateX(0px) translateY(0px) skewX(1deg) skewY(1deg);
+  /*-----------------------*/
+  text-shadow: 1px 1px #d14545, 2px 2px #4A744D, 3px 3px #4A744D, 4px 4px #4A744D, 5px 5px #4A744D, 6px 6px #4A744D, 7px 7px #4A744D, 8px 8px #4A744D, 9px 9px #4A744D, 10px 10px #4A744D, 11px 11px #4A744D, 12px 12px #4A744D, 13px 13px #4A744D, 14px 14px #4A744D, 15px 15px #4A744D, 16px 16px #4A744D, 17px 17px #4A744D, 18px 18px #4A744D, 19px 19px #4A744D, 20px 20px #4A744D, 21px 21px #4A744D, 22px 22px #4A744D, 23px 23px #4A744D, 24px 24px #4A744D, 25px 25px #d14545, 26px 26px 6px #06520C;
+  font-size: 30px;
+}
+
+header.masthead h2.display {
+  font-family: 'Lobster', cursive;
+  color: #D5E2D6;
+  text-align: center;
+  line-height: 15px;
+  margin-top: 3px;
+  -moz-transform: scale(1) rotate(-5deg) translateX(0px) translateY(0px) skewX(1deg) skewY(1deg);
+-webkit-transform: scle(1) rotate(-5deg) translateX(0px) translateY(0px) skewX(1deg) skewY(1deg);
+-o-transform: scale(1) rotate(-5deg) translateX(0px) translateY(0px) skewX(1deg) skewY(1deg);
+-ms-transform: scale(1) rotate(-5deg) translateX(0px) translateY(0px) skewX(1deg) skewY(1deg);
+transform: scale(1) rotate(-5deg) translateX(0px) translateY(0px) skewX(1deg) skewY(1deg);
+  /*-----------------------*/
+  text-shadow: 1px 1px #d14545, 2px 2px #4A744D, 3px 3px #4A744D, 4px 4px #4A744D, 5px 5px #4A744D, 6px 6px #4A744D, 7px 7px #4A744D, 8px 8px #4A744D, 9px 9px #4A744D, 10px 10px #4A744D, 11px 11px #4A744D, 12px 12px #4A744D, 13px 13px #4A744D, 14px 14px #4A744D, 15px 15px #4A744D, 16px 16px #4A744D, 17px 17px #4A744D, 18px 18px #4A744D, 19px 19px #4A744D, 20px 20px #4A744D, 21px 21px #4A744D, 22px 22px #4A744D, 23px 23px #4A744D, 24px 24px #4A744D, 25px 25px #d14545, 26px 26px 6px #06520C;
+   font-size: 40px;
+}
+
+
+
+
+
+/*end of making people happy food*/
+
+
+/*Mos Menu*/
+section.mos_menu {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 0px;
+}
+
+p{
+  background: yellow;
+}
+
+
+section.mos_menu > .container_empty{/*do not touch*/
+  background-color: #A5BE3280;
+  width:250px;/*done*/
+}
+
+section.mos_menu > .flexcontainer{ /*working*/
+  background-color: #A5BE3280;
+  width:1090px;/*done*/
+  display: flex;
+  width:83%
+}
+
+section.mos_menu > .card{
+  flex:3;
+  width:30rem;
+  width:70%
+  min-width:20%;
+}
+
+.flexcontainer #card{
+  flex:3;
+  width:20rem;
+  width:70%;
+  min-width:20%;
+}
+
